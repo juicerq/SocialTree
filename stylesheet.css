@@ -33,6 +33,7 @@ ul li{
   width: 30%;
   margin: 15px auto;
   letter-spacing: 0.1rem;
+  transition: transform 0.25s ease;
 }
 
 li:hover{
@@ -57,10 +58,11 @@ li:hover{
   width: 115px;
   border-radius: 500px;
   margin: 0;
+  transition: transform 0.25s ease;
 }
 
 .foto:hover{
-  transform: scale(1.025)
+  transform: scale(1.025);
 }
 
 a{
@@ -77,6 +79,10 @@ img{
   margin: auto;
   display: flex;
   list-style: none;
+}
+
+.logos li{
+  transition: transform 0.25s ease;
 }
 
 .logos li:hover{
