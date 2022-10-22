@@ -1,0 +1,65 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.socialtree{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li{
+  border: 1px solid #BB99DD;
+  border-radius: 2px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 15px auto;
+}
+
+.img {
+  border: 1px solid #BB99DD;
+  height: 120px;
+  width: 120px;
+  border-radius: 500px;
+  padding: 4px;
+  margin: 0 auto;
+}
+
+.foto{
+  height: 120px;
+  width: 120px;
+  border-radius: 500px;
+  margin: 0;
+}
+
+a{
+  color: #5a2b8a;
+}
+
+img{
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+}
+
+.logos {
+  margin: auto;
+}
