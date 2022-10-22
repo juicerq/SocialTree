@@ -32,6 +32,12 @@ li{
   justify-content: center;
   width: 30%;
   margin: 15px auto;
+  letter-spacing: 0.1rem;
+}
+
+li:hover{
+  transform: scale(1.025);
+  letter-spacing: 0.15rem;
 }
 
 .img {
@@ -41,13 +47,20 @@ li{
   border-radius: 500px;
   padding: 4px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .foto{
-  height: 120px;
-  width: 120px;
+  height: 115px;
+  width: 115px;
   border-radius: 500px;
   margin: 0;
+}
+
+.foto:hover{
+  transform: scale(1.025)
 }
 
 a{
