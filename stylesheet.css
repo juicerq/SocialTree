@@ -24,7 +24,7 @@ ul {
   padding-left: 0;
 }
 
-li{
+ul li{
   border: 1px solid #BB99DD;
   border-radius: 2px;
   padding: 10px 0px;
@@ -75,4 +75,10 @@ img{
 
 .logos {
   margin: auto;
+  display: flex;
+  list-style: none;
+}
+
+.logos li:hover{
+  transform: scale(1.2);
 }
