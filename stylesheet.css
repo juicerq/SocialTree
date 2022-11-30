@@ -1,6 +1,6 @@
 :root {
   --body-bg-color: #FAF7FD;
-  --purple: #BB99DD;
+  --purple: #1d9b2e;
 }
 
 body {
@@ -25,7 +25,7 @@ ul {
 }
 
 ul li{
-  border: 1px solid #BB99DD;
+  border: 1px solid #c1e22d;
   border-radius: 2px;
   padding: 10px 0px;
   display: flex;
@@ -45,7 +45,7 @@ li:hover{
 }
 
 .img {
-  border: 1px solid #BB99DD;
+  border: 1px solid #573e43;
   height: 120px;
   width: 120px;
   border-radius: 500px;
@@ -69,7 +69,7 @@ li:hover{
 }
 
 a{
-  color: #5a2b8a;
+  color: #2b8a33;
   text-decoration: none;
 }
 
